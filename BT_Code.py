@@ -25,13 +25,3 @@ with urlopen('https://www.bomtoon.com/main/rank?type=99') as response:
         f.write( title+"\n" ) #파일 저장
         
 f.close()
-        
-#좀 더 세부적인 부분을 선택하는 것에 대해서는
-#공식문서 참고 추천
-#span 태그 안에 class-ah_k인 것을 선택하고자 한다면
-#soup.select("span.ah_k")
-
-#.get을 통해 태그 부분을 제외 가능
-#print(anchor.get_text());
-
-#텍파로 저장하는 방법
